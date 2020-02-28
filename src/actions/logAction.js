@@ -1,4 +1,13 @@
-import { GET_LOGS, SET_LOADING, LOGS_ERROR, ADD_LOG, DELETE_LOG, UPDATE_LOG, SET_CURRENT, SEARCH_LOGS } from './types'
+import {
+  GET_LOGS,
+  SET_LOADING,
+  LOGS_ERROR,
+  ADD_LOG,
+  DELETE_LOG,
+  UPDATE_LOG,
+  SET_CURRENT,
+  SEARCH_LOGS
+} from './types'
 import axios from 'axios'
 
 //! get logs from server
@@ -60,7 +69,7 @@ export const deleteLog = (id) => async (dispatch) => {
 }
 //! set current
 export const setCurrent = (log) => {
-  return{
+  return {
     type: SET_CURRENT,
     payload: log
   }
@@ -68,7 +77,7 @@ export const setCurrent = (log) => {
 //! update log from server
 export const updateLog = (log) => async (dispatch) => {
   try {
-    const config ={
+    const config = {
       headers: {
         'Content-Type': 'application/json'
       }
@@ -86,7 +95,7 @@ export const updateLog = (log) => async (dispatch) => {
     })
   }
 }
-//! search logs 
+//! search logs
 export const searchLogs = (text) => async (dispatch) => {
   try {
     setLoading()

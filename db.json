@@ -34,13 +34,6 @@
       "tech": "Sam Smith",
       "date": "2020-02-27T17:03:50.733Z",
       "id": 5
-    },
-    {
-      "id": 6,
-      "message": "qqq",
-      "attention": false,
-      "tech": "Randy Morgan",
-      "date": "2020-02-28T01:44:44.807Z"
     }
   ],
   "techs": [
