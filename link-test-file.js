@@ -16,6 +16,8 @@
 //? https://materializecss.com/
 //? <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+//! compare with clipboard
+//? command platte > compare active clipboard
 
 // When you are working on another machine and you want to access the json-server via an URL, simply add the IP-Adress of the device like this:
 // json-server --watch db.json --host 192.168.0.xx --port 5000

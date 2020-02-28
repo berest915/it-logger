@@ -1,3 +1,8 @@
 import { combineReducers } from 'redux'
+//! each reducer
+import logReducer from './logReducer'
 
-export default combineReducers({})
+//! to create our rootReducer
+export default combineReducers({
+  log: logReducer
+})

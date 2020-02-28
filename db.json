@@ -2,24 +2,45 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed hard drive on workstation 805",
-      "attention": false,
-      "date": "03-02-2020",
-      "tech": "Sam Smith"
+      "message": "issued memory leak on drive 100",
+      "attention": true,
+      "tech": "Alex Tom",
+      "date": "2020-02-27T17:04:12.248Z"
     },
     {
-      "id": 2,
       "message": "Workstation 605 not posting",
       "attention": true,
-      "date": "03-02-2020",
-      "tech": "Alex Tom"
+      "tech": "Alex Tom",
+      "date": "2020-02-27T17:03:10.590Z",
+      "id": 2
     },
     {
       "id": 3,
-      "message": "Changed memory on workstation 200",
+      "message": "leaked memory on workstation 155",
+      "attention": true,
+      "tech": "Randy Morgan",
+      "date": "2020-02-28T01:45:09.241Z"
+    },
+    {
+      "message": "server offline 400 after 12am",
+      "attention": true,
+      "tech": "Alex Tom",
+      "date": "2020-02-27T17:03:38.661Z",
+      "id": 4
+    },
+    {
+      "message": "dispatcher to system bundle 100 by tomorrow 8am",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-02-27T17:03:50.733Z",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "message": "qqq",
       "attention": false,
-      "date": "03-02-2020",
-      "tech": "Randy Morgan"
+      "tech": "Randy Morgan",
+      "date": "2020-02-28T01:44:44.807Z"
     }
   ],
   "techs": [
