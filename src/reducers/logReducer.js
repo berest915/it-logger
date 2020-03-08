@@ -56,9 +56,11 @@ export default (state = initialState, action) => {
         loading: false
       }
     case LOGS_ERROR:
+      console.log(action.payload)
       return {
         ...state,
-        error: action.payload
+        error: action.payload,
+        loading: false
       }
     case SET_LOADING:
       return {

@@ -10,15 +10,6 @@ const TechListModal = ({ tech: { techs, loading }, getTechs }) => {
     // eslint-disable-next-line
   }, [])
 
-  // const getTechs = async () => {
-  //   setLoading(true)
-  //   const res = await fetch('/techs')
-  //   const data = await res.json()
-
-  //   setTechs(data)
-  //   setLoading(false)
-  // }
-
   return (
     <div id="tech-list-modal" className="modal">
       <div className="modal-content">
